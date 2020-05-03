@@ -1,12 +1,12 @@
 import java.io.FileInputStream;
-public class FIS {
+public class FISnames {
     //declaring array
     public static String[] names=new String[10];
      public static void main(String[] args){
         try{
             int ind=0;
             int i=0;
-            FileInputStream fis=new FileInputStream("/home/kshitiz/Desktop/java/file/kshitiz.txt");
+            FileInputStream fis=new FileInputStream("file/kshitiz.txt");
             
             while((i=fis.read()) != -1){
                 
