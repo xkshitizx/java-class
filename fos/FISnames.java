@@ -1,5 +1,5 @@
 import java.io.FileInputStream;
-public class FIS {
+public class FISnames {
     //declaring array
     public static String[] names=new String[10];
      public static void main(String[] args){
