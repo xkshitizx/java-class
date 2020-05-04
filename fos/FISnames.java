@@ -6,7 +6,7 @@ public class FIS {
         try{
             int ind=0;
             int i=0;
-            FileInputStream fis=new FileInputStream("/home/kshitiz/Desktop/java/file/kshitiz.txt");
+            FileInputStream fis=new FileInputStream("file/kshitiz.txt");
             
             while((i=fis.read()) != -1){
                 

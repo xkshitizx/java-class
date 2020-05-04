@@ -6,7 +6,7 @@ public class FRarr {
         try {
             int ind=0;
             int i=0;
-            FileReader farr = new FileReader("/home/kshitiz/Desktop/java/file-writer/files-filewriter/abc.txt");
+            FileReader farr = new FileReader("files-filewriter/abc.txt");
             while((i=farr.read())!=-1){
                 if (names[ind]==null){
                     names[ind]="";
